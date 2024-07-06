@@ -14,7 +14,7 @@ provider:
   memorySize: 128
   timeout: 30
   deploymentBucket:
-    name: simple-service-${self:provider.stage}
+    name: simple-service-${self:provider.stage}-bEQbhk6ms
     serverSideEncryption: AES256
     blockPublicAccess: true
   environment:
